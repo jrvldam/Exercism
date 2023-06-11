@@ -22,6 +22,6 @@ func Score(x, y float64) int {
 }
 
 func isSideCircle(r float64, x float64, y float64) bool {
-	return math.Pow(0-x, 2)+math.Pow(0-y, 2) <= math.Pow(r, 2)
+	return math.Pow(x, 2)+math.Pow(y, 2) <= math.Pow(r, 2)
 }
 
